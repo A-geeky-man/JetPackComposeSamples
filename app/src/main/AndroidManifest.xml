@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.jetpackcompose.composetext">
+<uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ComposeText">
+        <activity
+            android:name=".activities.HomeActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ComposeText.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activities.ActivityThemes"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ComposeText.NoActionBar" />
+
+        <activity
+            android:name=".activities.TextBasicsActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ComposeText.NoActionBar" />
+        <activity
+            android:name=".activities.ActivityTextField"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/Theme.ComposeText.NoActionBar" />
+        <activity
+            android:name=".activities.ActivityModifiers"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ComposeText.NoActionBar" />
+        <activity
+            android:name=".activities.ImageSamplesActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ComposeText.NoActionBar" />
+        <activity
+            android:name=".activities.ActivityList"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ComposeText.NoActionBar" />
+        <activity
+            android:name=".activities.ScaffoldSampleActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ComposeText.NoActionBar" />
+        <activity
+            android:name=".activities.ActivityGradient"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ComposeText.NoActionBar" />
+        <activity
+            android:name=".activities.ActivityTextStyles"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ComposeText.NoActionBar" />
+        <activity
+            android:name=".activities.ActivityLayouts"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ComposeText.NoActionBar" />
+        <activity
+            android:name=".activities.ButtonsSampleActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ComposeText.NoActionBar" />
+        <activity
+            android:name=".activities.ActivityStateManagement"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ComposeText.NoActionBar" />
+        <activity
+            android:name=".activities.ActivityCard"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ComposeText.NoActionBar" />
+        <activity
+            android:name=".activities.AnimationSamplesActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ComposeText.NoActionBar" />
+
+        <activity
+            android:name=".activities.ActivityProgressIndicator"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ComposeText.NoActionBar" />
+
+        <activity
+            android:name=".activities.ActivityAlertDialog"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ComposeText.NoActionBar" />
+    </application>
+
+</manifest>
